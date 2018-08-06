@@ -19,7 +19,7 @@ You are to demonstrate the algorithm to convert an integer to a string.
   
   for example:
   
-                 MyIntToString(254, 16) return "FE"
+                MyIntToString(254, 16) return "FE"
 		MyIntToString(254,  8) return "376"
 		MyIntToString(254,  2) return "11111110"
 
