@@ -12,13 +12,14 @@ public String MyIntToString(int value, int numbase);
 <h3>Requirements:</h3>
 
 You are to demonstrate the algorithm to convert an integer to a string.
+
 	1) return an empty string if value is negative.
 	2) return an empty string if the conversion fails.
 	3) return the proper string of the value using characer '0' to '9' and 'A' to 'F'
   
   for example:
   
-    MyIntToString(254, 16) return "FE"
+                 MyIntToString(254, 16) return "FE"
 		MyIntToString(254,  8) return "376"
 		MyIntToString(254,  2) return "11111110"
 
