@@ -9,7 +9,7 @@ public class Main {
      */
 
     public Main(){
-
+        //An empty constructor is needed to create a new instance via reflection by your persistence framework. If you don't provide any additional constructors with arguments for the class, you don't need to provide an empty constructor because you get one per default.
     }
 
     public String GetString(int abc){
